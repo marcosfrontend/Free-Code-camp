@@ -1,0 +1,108 @@
+body {
+    font-family: 'Lato', 'Lucido Grande' 'Lucido Sans Unicode', Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+}
+
+#main {
+    background-image: url(https://c8.alamy.com/compes/prfdh8/codigo-de-programacion-de-futurista-y-grandes-conexiones-de-datos-y-modelos-de-red-ilustracion-3d-prfdh8.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    overflow-y: scroll;
+    font-size: 24px;
+}
+
+#main::after {
+    content: "";
+    background-color: rgb(0, 0, 0, .8);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#main h1,
+#main p {
+    text-align: center;
+    font-family: 35px;
+    z-index: 2;
+    position: relative;
+}
+
+.main-content {
+    background-color: rgb(27, 27, 50, .9);
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px -1px 10px 5px rgb(0, 128, 100);
+}
+
+#name,
+#email,
+#number,
+#dropdown,
+#most-like,
+#comments {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    color: #000000;
+    border: 1px solid purple;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+label[for=name],
+label[for=email],
+label[for=number],
+label[for=dropdown],
+label[for=comments] {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#vide-length,
+#content-quality,
+#more-videos,
+fieldset input {
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#comments {
+    min-height: 180px;
+}
+
+label[for=comments] {
+    margin-top: 30px;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: rgba(74, 255, 3, 0.672);
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+}
